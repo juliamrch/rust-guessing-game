@@ -25,8 +25,8 @@ fn main() {
         println!("You guessed: {guess}");
 
         match guess.cmp(&secret_number) {
-            Ordering::Less => println!("Too small!"),
-            Ordering::Greater => println!("Too big!"),
+            Ordering::Less => println!("Too small (that's what she said)!"),
+            Ordering::Greater => println!("Too big (that's what she said)!"),
             Ordering::Equal => {
                 println!("You win!");
                 break;
