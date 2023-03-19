@@ -1,13 +1,21 @@
 
-# Rust Guessing number
+# Rust guessing number game
 
 This is a fun "guess the number" game built in Rust that you can play from your terminal. It's made by following [this tutorial](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html).
 
-To run it, you'll need to install Rust and Cargo.
+To run it, you'll need Rust and Cargo installed on your machine. If you don't have them yet, I've included instructions on how to install them.
 
 ## How to play
 
 If you are already using Rust and Cargo, just clone this repository, open it from your terminal and run `cargo run`.
+
+Here are the commands to copy paste:
+
+```shell
+git clone git@github.com:juliamrch/rust-guessing-game.git
+cd rust-guessing-game
+cargo run
+```
 
 The game will end once you've guessed the correct number. You can also quit the game sooner by typing `control + C`.
 
@@ -32,4 +40,3 @@ To acquire the build tools, you’ll need to install Visual Studio 2022. When as
 “Desktop Development with C++”
 The Windows 10 or 11 SDK
 The English language pack component, along with any other language pack of your choosing
-
